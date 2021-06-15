@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+  <div class="topnav">
+    <a href="../main_content/main.html">Home</a>
+    <a href="../About/about.html">About</a>
+    <a href="../contact_page/contact.html">Contact</a>
+    <div class="search-container">
+      <form >
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+</div>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Quick Contact</h3>
+          <h4>Contact us today, and get reply with in 24 hours!</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset class="plan">
+            <!-- <input placeholder="Kind of Problem" type="url" tabindex="4" required> -->
+            <select name="plan" class="plan">
+                <option value="none" selected disabled hidden>Select a Kind of Problem</option>
+                <option value="Complaint">Complaint</option>
+                <option value="Sugesstion">Sugesstion </option>
+                <option value="feedback">Feedback</option>
+                <option value="enquiry">Enquiry</option>
+                <option value="delay_order">Delay Order</option>
+                <option value="others">Others</option>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+       
+        
+      </div>
+</body>
+</html>
